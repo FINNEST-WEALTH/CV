@@ -1,37 +1,72 @@
-<!-- Copyright (C) Microsoft Corporation. All rights reserved. -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="utf-8" />
-	<title>GitHub Authentication - Sign In</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" media="screen" href="auth.css" />
+    <meta charset="UTF-8">
+    <title>FARUK Personal Site</title>
 </head>
 
-<body>
-	<a class="branding" href="https://code.visualstudio.com/">
-		Visual Studio Code
-	</a>
-	<div class="message-container">
-		<div class="message">
-			You are signed in now and can close this page.
-		</div>
-		<div class="error-message">
-			An error occurred while signing in:
-			<div class="error-text"></div>
-		</div>
-	</div>
-	<script>
-		var search = window.location.search;
-		var error = (/[?&^]error=([^&]+)/.exec(search) || [])[1];
-		if (error) {
-			document.querySelector('.error-text')
-				.textContent = decodeURIComponent(error);
-			document.querySelector('body')
-				.classList.add('error');
-		}
-	</script>
-</body>
+ <body>
+  <table cellspacing="20">
+<tr>
+<td><img src="https://pbs.twimg.com/profile_images/1539884333300858880/F7ra5XY4_400x400.jpg" alt="Faruk profile_images" srcset=""></td>
+<td><h1>SULAIMON FARUK ADEWALE</h1>
+  <p><em><strong>Programing language lover</strong> and <a href="https://cropappindex.org/?gclid=EAIaIQobChMI9Ke_h_XD-AIVzZBoCR3ZWgjZEAAYASAAEgLmK_D_BwE">A Cryptocurrency enthusiasts</a><strong></strong>.</em></p>
+  <p>I'm an IOS Developer, WEB Developer and An Entrepreneurship.</p></td>
+</tr>
+  </table>
+  <h3>Books and Teaching</h3>
+  <ul>
+    <li>The Complete Agricultural extention Bootcamp</li>
+    <li>The Complete Cryptocurrency enthusiasts Bootcamp</li>
+  </ul>
+  
+  <hr>
+  <h3>Work Experience</h3>
+  <table cellspacing="10">
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Works</th>
+        <th>Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <td>2010-2015</td>
+      <td>Clinical Doctor at the National health service</td>
+      <td>In Nigeria</td>
+    </tr>
+    <tr>
+      <td>2015-2020</td>
+      <td>Researcher at LAUTECH.</td>
+      <td>In Nigeria</td>
+    </tr>
+    </tbody><tr>
+      <td>2020-2022</td>
+      <td>Lead Developer at Moralis DAO.</td>
+      <td>In Nigeria</td>
+    </tr>
+    </tbody>
 
-</html>
+  </table>
+  <hr>
+  <h3>Skils</h3>
+  <table cellspacing="10">
+    <tr>
+<td>PEDOLOGIST</td>
+<td>⭐⭐⭐⭐⭐</td> 
+    </tr>
+    <tr>
+<td>WEB Development</td>
+<td>⭐⭐⭐⭐</td> 
+    </tr>
+    <tr>
+    <td>IOS Development</td>
+    <td>⭐⭐⭐</td> 
+   </tr>   
+  </table>
+<hr>
+  <a href="hobbies.html">My Hobbies</a>
+  <a href="contact-me.html">contact Me</a>
+</body>
+</html>   
